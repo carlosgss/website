@@ -6,7 +6,7 @@ body {
 }
 
 #cabeçalho {
-    background-color: #333;
+    background-color: #333333;
     color: white;
     padding: 10px 0;
 }
@@ -68,9 +68,10 @@ body {
     margin: 20px 0; /* Espaço acima e abaixo do contêiner */
 }
 
-.imagem {
-    max-width: 45%; /* Define a largura máxima das imagens */
-    margin: 0 10px; /* Espaço entre as imagens */
+.gif-container {
+    display: flex;
+    justify-content: center; /* Centraliza o GIF horizontalmente */
+    margin: 20px 0; /* Espaço acima e abaixo do contêiner */
 }
 
 #rodape44 {
